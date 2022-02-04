@@ -37,6 +37,7 @@ export default function SectionDetail(props) {
             src={`https://image.tmdb.org/t/p/w500/${poster}`}
             alt="poster"
             width={200}
+            className="shadow"
           />
           <div className="highlight-data ms-5">
             <h1 className="fw-bold mb-3">{title}</h1>

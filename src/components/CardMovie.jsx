@@ -25,7 +25,7 @@ export default function CardMovie(props) {
       <a href={`/detail/${id}`}>
         <div className="card m-4" style={{ width: "12rem" }}>
           <img
-            className="card-img-top"
+            className="card-img-top shadow"
             src={`https://image.tmdb.org/t/p/w500/${poster}`}
             alt="Movie Poster"
           />
